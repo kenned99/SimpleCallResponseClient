@@ -1,0 +1,13 @@
+C:\Users\kej\source\repos\SimpleCallResponse\SimpleCallResponse\bin\Debug\netcoreapp3.1\SimpleCallResponse.exe
+C:\Users\kej\source\repos\SimpleCallResponse\SimpleCallResponse\bin\Debug\netcoreapp3.1\SimpleCallResponse.deps.json
+C:\Users\kej\source\repos\SimpleCallResponse\SimpleCallResponse\bin\Debug\netcoreapp3.1\SimpleCallResponse.runtimeconfig.json
+C:\Users\kej\source\repos\SimpleCallResponse\SimpleCallResponse\bin\Debug\netcoreapp3.1\SimpleCallResponse.runtimeconfig.dev.json
+C:\Users\kej\source\repos\SimpleCallResponse\SimpleCallResponse\bin\Debug\netcoreapp3.1\SimpleCallResponse.dll
+C:\Users\kej\source\repos\SimpleCallResponse\SimpleCallResponse\bin\Debug\netcoreapp3.1\SimpleCallResponse.pdb
+C:\Users\kej\source\repos\SimpleCallResponse\SimpleCallResponse\obj\Debug\netcoreapp3.1\SimpleCallResponse.csprojAssemblyReference.cache
+C:\Users\kej\source\repos\SimpleCallResponse\SimpleCallResponse\obj\Debug\netcoreapp3.1\SimpleCallResponse.AssemblyInfoInputs.cache
+C:\Users\kej\source\repos\SimpleCallResponse\SimpleCallResponse\obj\Debug\netcoreapp3.1\SimpleCallResponse.AssemblyInfo.cs
+C:\Users\kej\source\repos\SimpleCallResponse\SimpleCallResponse\obj\Debug\netcoreapp3.1\SimpleCallResponse.csproj.CoreCompileInputs.cache
+C:\Users\kej\source\repos\SimpleCallResponse\SimpleCallResponse\obj\Debug\netcoreapp3.1\SimpleCallResponse.dll
+C:\Users\kej\source\repos\SimpleCallResponse\SimpleCallResponse\obj\Debug\netcoreapp3.1\SimpleCallResponse.pdb
+C:\Users\kej\source\repos\SimpleCallResponse\SimpleCallResponse\obj\Debug\netcoreapp3.1\SimpleCallResponse.genruntimeconfig.cache
