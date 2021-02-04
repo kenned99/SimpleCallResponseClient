@@ -1,0 +1,9 @@
+C:\Users\kej\source\repos\SimpleCallResponse\EncryptionClass\bin\Debug\netstandard2.0\EncryptionClass.deps.json
+C:\Users\kej\source\repos\SimpleCallResponse\EncryptionClass\bin\Debug\netstandard2.0\EncryptionClass.dll
+C:\Users\kej\source\repos\SimpleCallResponse\EncryptionClass\bin\Debug\netstandard2.0\EncryptionClass.pdb
+C:\Users\kej\source\repos\SimpleCallResponse\EncryptionClass\obj\Debug\netstandard2.0\EncryptionClass.csprojAssemblyReference.cache
+C:\Users\kej\source\repos\SimpleCallResponse\EncryptionClass\obj\Debug\netstandard2.0\EncryptionClass.AssemblyInfoInputs.cache
+C:\Users\kej\source\repos\SimpleCallResponse\EncryptionClass\obj\Debug\netstandard2.0\EncryptionClass.AssemblyInfo.cs
+C:\Users\kej\source\repos\SimpleCallResponse\EncryptionClass\obj\Debug\netstandard2.0\EncryptionClass.csproj.CoreCompileInputs.cache
+C:\Users\kej\source\repos\SimpleCallResponse\EncryptionClass\obj\Debug\netstandard2.0\EncryptionClass.dll
+C:\Users\kej\source\repos\SimpleCallResponse\EncryptionClass\obj\Debug\netstandard2.0\EncryptionClass.pdb

@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "SimpleCallResponse/1.0.0": {
+        "dependencies": {
+          "EncryptionClass": "1.0.0"
+        },
         "runtime": {
           "SimpleCallResponse.dll": {}
+        }
+      },
+      "EncryptionClass/1.0.0": {
+        "runtime": {
+          "EncryptionClass.dll": {}
         }
       }
     }
   },
   "libraries": {
     "SimpleCallResponse/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EncryptionClass/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

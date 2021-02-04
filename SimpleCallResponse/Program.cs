@@ -2,17 +2,23 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using EncryptionClass;
 
 namespace SimpleCallResponse
 {
     class Program
     {
+        public static Encryption Encrypt = new Encryption();
+        public static byte PrivateKey = 15;
+        public static byte testetst= 15;
+
         static void Main(string[] args)
         {
             TcpClient client = new TcpClient();
             int port = 13356;
             IPAddress ip = IPAddress.Parse("127.0.0.1");
             IPEndPoint endPoint = new IPEndPoint(ip, port);
+           
 
             client.Connect(endPoint);
 
@@ -28,6 +34,7 @@ namespace SimpleCallResponse
                 }
 
                 byte[] buffer = Encoding.UTF8.GetBytes(userInput);
+                Encrypt.EncryptByte(buffer, PrivateKey);
                 stream.Write(buffer, 0, buffer.Length);
 
             }
@@ -40,6 +47,7 @@ namespace SimpleCallResponse
             {
                 byte[] buffer = new byte[256];
                 int nBytesRead = await stream.ReadAsync(buffer, 0, 256);
+                Encrypt.DecryptByte(buffer, PrivateKey);
                 string message = Encoding.UTF8.GetString(buffer, 0, nBytesRead);
                 if (message != string.Empty)
                 {

@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleCallResponse
+namespace EncryptionClass
 {
-    class Encryption
+   public class Encryption
     {
-        public Encryption()
+        public void EncryptionVariables()
         {
             byte[] bytes = Encoding.UTF8.GetBytes("a");
             byte key = 255;
@@ -15,10 +15,12 @@ namespace SimpleCallResponse
             PrintBytesUTF8(bytes);
             DecryptByte(bytes, key);
             PrintBytesUTF8(bytes);
+           //pis 2
         }
 
+        //Substituion
         public void EncryptByte(byte[] bytes, byte key)
-        {
+        {             
             for (int i = 0; i < bytes.Length; i++)
             {
                 int change = i + key;
@@ -41,6 +43,32 @@ namespace SimpleCallResponse
         {
             string toPrint = Encoding.UTF8.GetString(bytes);
             Console.WriteLine(toPrint);
+        }
+
+        //Simple encrypt
+        public static byte[] Encrypt(string message)
+        {
+            byte[] bytes = Encoding.UTF8.GetBytes(message);
+
+            for (int i = 0; i < bytes.Length; i++)
+            {
+                bytes[i] += 69;
+            }
+            return bytes;
+        }
+
+        //Simpel Decrypt
+        public static string Dekrypter(byte[] bytes)
+        {
+
+            for (int i = 0; i < bytes.Length; i++)
+            {
+                bytes[i] -= 69;
+            }
+
+            string message = Encoding.UTF8.GetString(bytes);
+
+            return message;
         }
     }
 }
